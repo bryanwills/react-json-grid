@@ -81,8 +81,8 @@ function App() {
       <JSONGrid
         data={data}
         searchText={"ben"}
-        theme={"blueberryDark"}
-        customTheme={{ numberColor: "white" }}
+        theme={"moonLight"}
+        customTheme={{ tableHeaderColor: "white" }}
         defaultExpandKeyTree={keyTree}
       />
     </div>
